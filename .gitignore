@@ -1,0 +1,14 @@
+__pycache__
+domainbed/facebook.py
+*.csv
+*.jpg
+*.png
+*.txt
+*.jsonl
+*.pkl
+*.json
+*done*
+*.pt
+*.sh
+*.gz
+*-ubyte
