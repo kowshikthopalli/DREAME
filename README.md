@@ -47,7 +47,8 @@ python3 -m domainbed.scripts.train_aug --data_dir='DATA'\
 We use two different model selection criteria Overall Average and Overall Ensemble. More details are provided in paper.
 
 ## Results
-![results](figures/results.png)
+<img src="figures/results.png" alt="results" width="600"/>
+
 ## Baseline Results.
 We report baseline results from the paper In search of lost domain generalization (https://openreview.net/pdf?id=lQdXeXDoWtI) and their github repo.
 Full results for [commit 7df6f06](https://github.com/facebookresearch/DomainBed/tree/7df6f06a6f9062284812a3f174c306218932c5e4) in LaTeX format available [here](domainbed/results/2020_10_06_7df6f06/results.tex).
