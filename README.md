@@ -1,24 +1,18 @@
 # Welcome to DREAME code base.
 
-This is the code for our paper titled  Automated Domain Discovery from Multiple Sources to Improve Zero-Shot Generalization - https://arxiv.org/abs/2112.09802
+This is the official implementation of [Automated Domain Discovery from Multiple Sources to Improve Zero-Shot Generalization](https://arxiv.org/abs/2112.09802)
 
 
 
-
-![](figures/groupdro++.png)
-
+<img src="figures/groupdro++.png" alt="groupdro++" width="800"/>
 
 **GroupDRO++:**  Here we illustrate our approach for generating
 custom domain groups using DeepCluster to improve the GroupDRO technique.
 
+<img src="figures/algo-overview.png" alt="dreame" width="800"/>
 
-![](figures/algo-overview.png)
-
-
-**DREAME++:** Here we illustrate our approach to automatically infer the appropriate domain-labels through a meta-learning approach. 
-In the meta-train stage, we compute ERM-style gradients for all models $M_i$ using the data batch $\mathcal{B} \coloneqq \{\mathcal{B}_1,\mathcal{B}_2,\mathcal{B}_3\}$ pooled from all source domains. Next, we use a novel model relevance score computation to assign each meta-validation batch to the most relevant model in the ensemble. Finally, we use a gradient-through-gradient update to learn each of the models $f_{\theta_i}$.
-
-
+**DREAME:** Automatically infers the appropriate domain-labels through meta-optimization. 
+In the meta-train stage, we compute ERM-style gradients for all models $M_i$ using the data batch $\mathcal{B} \coloneqq \{\mathcal{B}_1,\mathcal{B}_2,\mathcal{B}_3\}$ pooled from all source domains. Next, we use a model relevance score computation to assign each meta-validation batch to the most relevant model in the ensemble. Finally, we use a gradient-through-gradient update to learn each of the models $f_{\theta_i}$.
 
 
 ## Quick start
